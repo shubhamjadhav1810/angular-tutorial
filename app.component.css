@@ -1,0 +1,12 @@
+h1 {
+    border: 2px solid black;
+    color: darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form1 {
+    margin: 24px;
+    padding: 20px;
+    color: rgb(196, 161, 21);
+    justify-content: center;
+}

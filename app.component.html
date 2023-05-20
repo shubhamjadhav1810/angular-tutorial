@@ -1,0 +1,18 @@
+<h1>{{title}}</h1>
+<div class="form1">
+    <input type="text" #name placeholder="enter name" name="name"> <br>
+
+    <input type="email" #email placeholder="enter email" name="email"> <br>
+
+    <input type="number" #number placeholder="enter mob number" name="number"> <br>
+
+    <input type="password" #password placeholder="enter password" name="password"> <br>
+
+    <button (click)="getValue(name.value,email.value,number.value)"> SUBMIT </button>
+</div>
+
+<h1>registered info:</h1> <br>
+
+<p>name:{{displayname}}</p>
+<p>email:{{displayemail}}</p>
+<p>contact no:{{displaynumber}}</p>
